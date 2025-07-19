@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: ig-ops-cron
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python runner.py
