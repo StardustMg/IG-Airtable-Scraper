@@ -2,6 +2,7 @@ import json
 import requests
 import pandas as pd
 import logging
+import os
 
 # Configure logging
 logging.basicConfig(
